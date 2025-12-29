@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(npm install:*)",
+      "Bash(copy \"C:\\\\Users\\\\meena\\\\Desktop\\\\me\\\\web\\\\RESUME NEW PAVAN.pdf\" \"C:\\\\Users\\\\meena\\\\Desktop\\\\me\\\\web\\\\public\\\\resume.pdf\")",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

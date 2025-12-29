@@ -99,6 +99,7 @@ export default function ClickSpark() {
                   className="absolute w-0.5 h-0.5 rounded-full"
                   style={{
                     backgroundColor: i % 3 === 0 ? '#00ff88' : i % 3 === 1 ? '#00ddff' : '#ff0088',
+                    transform: 'translate(-50%, -50%)',
                   }}
                   initial={{
                     x: 0,
@@ -117,9 +118,6 @@ export default function ClickSpark() {
                     duration: 0.4 + Math.random() * 0.3,
                     ease: 'easeOut',
                     delay: Math.random() * 0.1,
-                  }}
-                  style={{
-                    transform: 'translate(-50%, -50%)',
                   }}
                 />
               )
